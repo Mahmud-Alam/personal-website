@@ -1,0 +1,145 @@
+body{
+    margin: 0px;
+    font-family: 'Poppins', sans-serif;
+}
+h1{
+    font-size: 50px;
+}
+.info{
+    text-decoration: none;
+    font-size: larger;
+    font-weight: 900;
+    color:royalblue;
+}
+.info:hover{
+    color: orangered;
+}
+.blue-highlight{
+    color:rgb(50, 151, 218);
+}
+.half-width{
+    font-size: 15px;
+    width: 40%;
+    float: left;
+    margin-left: 5%;
+    padding: 2%;
+    text-align: justify;
+}
+.half-width img{
+    width: 80%;
+}
+.header-bg{
+    background-image: url("images/header-bg.png");
+    background-repeat: no-repeat
+}
+section{
+    height: 500px;
+    padding-bottom: 100px;
+}
+.link-button{
+    text-decoration: none;
+    background-image: linear-gradient(45deg, lightblue, royalblue);
+    background-color: royalblue;
+    padding: 10px 20px;
+    border-radius: 10px;
+    color: white;
+    font-weight: 900;
+}
+.link-button:hover{
+    background-image: linear-gradient(45deg, orange, orangered);
+}
+
+.resume-button{
+    text-decoration: none;
+    background-image: linear-gradient(45deg, lightpink, deeppink);
+    padding: 10px 20px;
+    border-radius: 10px;
+    color: white;
+    font-weight: 900;
+}
+.resume-button:hover{
+    background-image: linear-gradient(45deg, orange, orangered);
+}
+.biography-area{
+    background-image: url("images/biography-bg.png");
+    background-repeat: no-repeat;
+    /* background-position: right; */
+    width: 100%;
+}
+
+.work-text{
+    font-size: 50px;
+    text-align: center;
+}
+.work-img{
+    width: 25%;
+    float: left;
+    margin:6% 0 6% 6% ;
+}
+.work-img img{
+    width: 100%;
+}
+
+.work-area{
+    background-image: url(images/latest-work-bg.png);
+    background-repeat: no-repeat;
+    /* background-position: left; */
+}
+
+.footer-section h2{
+    text-align: center;
+    font-size: 50px;
+    font-weight: 900;
+}
+
+.footer-clients{
+    width: 25%;
+    float: left;
+    margin:6% 0 6% 6% ;
+    text-align: center;
+}
+.footer-clients img{
+    width: 40%;
+}
+.footer-clients a{
+    text-decoration: none;
+    font-size: larger;
+    font-weight: 900;
+    color:royalblue;
+}
+.footer-clients a:hover{
+    color: orangered;
+}
+
+.clients-pos{
+    color: gray;
+}
+
+.footer-section{
+    height: 700px;
+    background-image: url(images/footer-bg.png);
+}
+
+
+.email{
+    height: 100px;
+    width: 500px;
+    background-image: linear-gradient(45deg, orange, orangered);
+    padding: 10px 20px;
+    border-radius: 10px;
+    text-align: center;
+    display: inline-block;
+    margin: 0 40% 0;
+}
+.email-button{
+    text-decoration: none;
+    text-align: center;
+    color: white;
+    font-weight: 900;
+    text-align: center;
+    display: inline-block;
+}
+
+footer{
+    text-align: center;
+}
